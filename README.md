@@ -17,4 +17,4 @@ Currently a MSc student in Image Analysis and Machine Learning at Uppsala Univer
 - 🎯 Now, looking for a oppportunity.
 - 🤟 I have a passion for medical artifical intelligence.
 - 🐂 You can view my [resume]( https://github.com/chuxinZ/chuxinZ/blob/main/document/cv.pdf ).
-- 📝 My [master's thesis] (https://www.diva-portal.org/smash/record.jsf?aq2=%5B%5B%5D%5D&c=1&af=%5B%5D&searchType=SIMPLE&sortOrder2=title_sort_asc&query=chuxin+zhang&language=en&pid=diva2%3A1713766&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=6524) now is avaliable.
+- 📝 My [master's thesis](https://www.diva-portal.org/smash/record.jsf?aq2=%5B%5B%5D%5D&c=1&af=%5B%5D&searchType=SIMPLE&sortOrder2=title_sort_asc&query=chuxin+zhang&language=en&pid=diva2%3A1713766&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=6524) now is avaliable.
