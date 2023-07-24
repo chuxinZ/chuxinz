@@ -2,16 +2,84 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>你的名字的个人网站</title>
+    <title>你的名字</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+            margin: 15px;
+        }
+        .section {
+            display: none;
+        }
+        .section.active {
+            display: block;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            cursor: pointer;
+            padding: 10px;
+            background-color: #eee;
+            margin-bottom: 5px;
+        }
+        nav ul li:hover {
+            background-color: #ccc;
         }
     </style>
 </head>
 <body>
-    <h1>欢迎来到我的个人网站!</h1>
-    <p>你好，我是[你的名字]。</p>
-    <p>这是我个人的网站，你可以在这里找到关于我的信息和我的博客。</p>
+    <header>
+        <h1>欢迎来到我的个人网站</h1>
+        <nav>
+            <ul>
+                <li onclick="showSection('about-me')">关于我</li>
+                <li onclick="showSection('education')">教育</li>
+                <li onclick="showSection('research')">研究</li>
+                <li onclick="showSection('personal-life')">个人生活</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="about-me" class="section active">
+            <h2>关于我</h2>
+            <p>你好，我是[你的名字]。</p>
+        </div>
+        <div id="education" class="section">
+            <h2>教育</h2>
+            <p>这是我关于教育的部分。</p>
+        </div>
+        <div id="research" class="section">
+            <h2>研究</h2>
+            <p>这是我关于研究的部分。</p>
+        </div>
+        <div id="personal-life" class="section">
+            <h2>个人生活</h2>
+            <p>这是我关于个人生活的部分。</p>
+        </div>
+    </main>
+    <script>
+        function showSection(id) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            const activeSection = document.getElementById(id);
+            activeSection.classList.add('active');
+        }
+    </script>
 </body>
 </html>
+
