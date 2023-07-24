@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Chuxin ZHANG</title>
+    <title>你的名字</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,28 +15,15 @@
             color: white;
             padding: 10px;
             text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            display: flex;
+            justify-content: space-around;
         }
         main {
             margin: 15px;
-        }
-        .section {
-            display: none;
-        }
-        .section.active {
-            display: block;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            cursor: pointer;
-            padding: 10px;
-            background-color: #eee;
-            margin-bottom: 5px;
-        }
-        nav ul li:hover {
-            background-color: #ccc;
+            padding-top: 50px; /* to ensure the header does not cover the content */
         }
     </style>
 </head>
@@ -45,41 +32,30 @@
         <h1>欢迎来到我的个人网站</h1>
         <nav>
             <ul>
-                <li onclick="showSection('about-me')">About Me</li>
-                <li onclick="showSection('education')">Education</li>
-                <li onclick="showSection('research')">Research</li>
-                <li onclick="showSection('personal-life')">Personal Life</li>
+                <li><a href="#about-me">关于我</a></li>
+                <li><a href="#education">教育</a></li>
+                <li><a href="#research">研究</a></li>
+                <li><a href="#personal-life">个人生活</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div id="about-me" class="section active">
+        <div id="about-me">
             <h2>关于我</h2>
             <p>你好，我是[你的名字]。</p>
         </div>
-        <div id="education" class="section">
+        <div id="education">
             <h2>教育</h2>
             <p>这是我关于教育的部分。</p>
         </div>
-        <div id="research" class="section">
+        <div id="research">
             <h2>研究</h2>
             <p>这是我关于研究的部分。</p>
         </div>
-        <div id="personal-life" class="section">
+        <div id="personal-life">
             <h2>个人生活</h2>
             <p>这是我关于个人生活的部分。</p>
         </div>
     </main>
-    <script>
-        function showSection(id) {
-            const sections = document.querySelectorAll('.section');
-            sections.forEach(section => {
-                section.classList.remove('active');
-            });
-            const activeSection = document.getElementById(id);
-            activeSection.classList.add('active');
-        }
-    </script>
 </body>
 </html>
-
