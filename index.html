@@ -12,29 +12,27 @@
             color: #000105; /* text color */
         }
         a {
-            color: #5b00ae; /* link color, same as your header color */
+            color: #5b00ae; /* link color */
             text-decoration: none;
         }
         a:hover {
-            color: #f9e7ff; /* link hover color */
+            color: #f6fafb; /* link hover color */
+            background-color: #9fe7eb; /* link hover background color */
+            border-radius: 10px; /* rounded corners for the hover background */
+            padding: 10px; /* some padding to create space around the text */
         }
         header {
-            background-color: #5b00ae; /* header background color */
-            color: #f6fafb; /* header text color, using the background color for contrast */
+            border-bottom: 3px solid #f9e7ff; /* header border */
             padding: 10px;
             text-align: center;
             position: fixed;
             width: 100%;
             top: 0;
+            background-color: transparent; /* make header transparent */
         }
         h1 {
             margin: 0;
-        }
-        h1:hover {
-            color: #f6fafb; /* header hover color, using the background color for contrast */
-            background-color: #9fe7eb; /* header hover background color */
-            border-radius: 10px; /* rounded corners for the hover background */
-            padding: 10px; /* some padding to create space around the text */
+            color: #5b00ae; /* header color */
         }
         nav {
             display: flex;
@@ -49,7 +47,6 @@
         }
         nav li a {
             margin: 0 20px; /* 0 is the vertical margin, 20px is the horizontal margin */
-            padding: 0 10px; /* optional, add some padding to make the clickable area bigger */
         }
         main {
             margin: 15px;
