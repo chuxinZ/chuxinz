@@ -14,14 +14,37 @@
         a {
             color: #000105; /* link color */
             text-decoration: none;
-            font-family: 'Lucida Sans Typewriter';
+            font-family: 'Lucida Sans Typewriter', Arial, sans-serif;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+        a:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background-color: #9fe7eb;
+            z-index: -1;
+            transition: all 0.5s;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 10% 90%, 20% 80%, 30% 70%, 40% 60%, 50% 50%, 60% 40%, 70% 30%, 80% 20%, 90% 10%);
+        }
+        a:hover:before {
+            left: 0;
+        }
+/*         a {
+            color: #000105; /* link color */
+            text-decoration: none;
+            font-family: 'Lucida Sans Typewriter', Arial, sans-serif;
         }
         a:hover {
             color: #f6fafb; /* link hover color */
             background-color: #9fe7eb; /* link hover background color */
             border-radius: 10px; /* rounded corners for the hover background */
             padding: 10px; /* some padding to create space around the text */
-        }
+        } */
         header {
             border-bottom: 3px solid #f9e7ff; /* header border */
             padding: 10px;
