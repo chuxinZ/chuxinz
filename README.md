@@ -3,7 +3,9 @@
   <img src="https://github.com/chuxinZ/chuxinZ/blob/main/icon/bb.gif" width="200"/>
 </div>
 
-### Hej hej, bonjour, I am **Chuxin ZHANG**.
+### Hej hej!
+### Bonjour!
+### I am **Chuxin ZHANG**.
 
 
 <p align='left'>
