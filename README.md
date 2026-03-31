@@ -3,6 +3,8 @@
   <img src="https://github.com/chuxinZ/chuxinZ/blob/main/icon/bb.gif" width="200"/>
 </div>
 
+### 你好！
+### Hello!
 ### Hej hej!
 ### Bonjour!
 ### I am **Chuxin ZHANG**.
