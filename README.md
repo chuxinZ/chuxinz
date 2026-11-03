@@ -12,7 +12,7 @@
 
 <p align='left'>
 <a href="https://www.linkedin.com/in/chuxin-zhang-a36664126/"><img height="30" src="https://github.com/chuxinZ/chuxinZ/blob/main/icon/linkedin.png?raw=true"></a>
-<a href="https://www.facebook.com/chuhsin.chang.1"><img height="30" src="https://github.com/chuxinZ/chuxinZ/blob/main/icon/fb.png?raw=true"></a>
+<a href="https://scholar.google.com/citations?user=0AORzZoAAAAJ&hl=en&oi=ao"><img height="30" src="https://github.com/chuxinZ/chuxinZ/blob/main/icon/icons8-google-scholar-96.png?raw=true"></a>
 <p>
 
 #### About Me
