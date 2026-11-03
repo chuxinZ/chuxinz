@@ -13,6 +13,7 @@
 <p align='left'>
 <a href="https://www.linkedin.com/in/chuxin-zhang-a36664126/"><img height="30" src="https://github.com/chuxinZ/chuxinZ/blob/main/icon/linkedin.png?raw=true"></a>
 <a href="https://scholar.google.com/citations?user=0AORzZoAAAAJ&hl=en&oi=ao"><img height="30" src="https://github.com/chuxinZ/chuxinZ/blob/main/icon/icons8-google-scholar-96.png?raw=true"></a>
+<a href="https://orcid.org/0009-0009-8699-5099"><img height="30" src="https://github.com/chuxinZ/chuxinZ/blob/main/icon/250px-ORCID_iD.svg.webp?raw=true"></a>
 <p>
 
 #### About Me
